@@ -1,5 +1,4 @@
 /*!
-
 =========================================================
 * Argon Dashboard React - v1.2.4
 =========================================================
@@ -11,9 +10,7 @@
 * Coded by Creative Tim
 
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
