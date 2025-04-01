@@ -25,7 +25,7 @@ import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 
 var routes = [
-  {
+  { // dashboard
     path: "/index",
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
