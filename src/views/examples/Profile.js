@@ -82,15 +82,15 @@ const Profile = () => {
                     <div className="card-profile-stats d-flex justify-content-center mt-md-5">
                       <div>
                         <span className="heading">22</span>
-                        <span className="description">Friends</span>
+                        <span className="description">Listed</span>
                       </div>
                       <div>
                         <span className="heading">10</span>
-                        <span className="description">Photos</span>
+                        <span className="description">Sold</span>
                       </div>
                       <div>
                         <span className="heading">89</span>
-                        <span className="description">Comments</span>
+                        <span className="description">Reviews</span>
                       </div>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Profile = () => {
                 <div className="text-center">
                   <h3>
                     Jessica Jones
-                    <span className="font-weight-light">, 27</span>
+                    <span className="font-weight-light">, 23</span>
                   </h3>
                   <div className="h5 font-weight-300">
                     <i className="ni location_pin mr-2" />
@@ -106,17 +106,18 @@ const Profile = () => {
                   </div>
                   <div className="h5 mt-4">
                     <i className="ni business_briefcase-24 mr-2" />
-                    Solution Manager - Creative Tim Officer
+                    BBA - Management and Information Technology 
                   </div>
                   <div>
                     <i className="ni education_hat mr-2" />
-                    University of Computer Science
+                    University of Toronto St. George
                   </div>
                   <hr className="my-4" />
+                  {/* someone find another use for this mini "about me" here since we already have an about me,
+                  I actually have no idea what this is for */}
                   <p>
-                    Ryan — the name taken by Melbourne-raised, Brooklyn-based
-                    Nick Murphy — writes, performs and records all of his own
-                    music.
+                    Currently surviving on 3 AM study sessions, instant noodles,
+                    and the hope that group project members actually reply this time.
                   </p>
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     Show more
@@ -144,6 +145,10 @@ const Profile = () => {
                   </Col>
                 </Row>
               </CardHeader>
+              <div className="px-4 pb-3 text-muted small">
+                <i className="ni ni-calendar-grid-58 mr-2" />
+                Member since December 06, 2024
+              </div>
               <CardBody>
                 <Form>
                   <h6 className="heading-small text-muted mb-4">
@@ -161,7 +166,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="lucky.jesse"
+                            defaultValue="jesse.jones"
                             id="input-username"
                             placeholder="Username"
                             type="text"
@@ -179,8 +184,9 @@ const Profile = () => {
                           <Input
                             className="form-control-alternative"
                             id="input-email"
-                            placeholder="jesse@example.com"
+                            placeholder="Email address"
                             type="email"
+                            defaultValue="JesseJay@gmail.com"
                           />
                         </FormGroup>
                       </Col>
@@ -196,7 +202,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="Lucky"
+                            defaultValue="Jessica"
                             id="input-first-name"
                             placeholder="First name"
                             type="text"
@@ -213,7 +219,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="Jesse"
+                            defaultValue="Jones"
                             id="input-last-name"
                             placeholder="Last name"
                             type="text"
@@ -239,7 +245,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                            defaultValue="266 Sammon Ave"
                             id="input-address"
                             placeholder="Home Address"
                             type="text"
@@ -258,7 +264,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="New York"
+                            defaultValue="Toronto"
                             id="input-city"
                             placeholder="City"
                             type="text"
@@ -275,7 +281,7 @@ const Profile = () => {
                           </label>
                           <Input
                             className="form-control-alternative"
-                            defaultValue="United States"
+                            defaultValue="Canada"
                             id="input-country"
                             placeholder="Country"
                             type="text"
@@ -286,7 +292,7 @@ const Profile = () => {
                         <FormGroup>
                           <label
                             className="form-control-label"
-                            htmlFor="input-country"
+                            htmlFor="input-postal-code"
                           >
                             Postal code
                           </label>
@@ -294,7 +300,8 @@ const Profile = () => {
                             className="form-control-alternative"
                             id="input-postal-code"
                             placeholder="Postal code"
-                            type="number"
+                            type="text"
+                            defaultValue="M4J 1Z7"
                           />
                         </FormGroup>
                       </Col>
@@ -310,8 +317,7 @@ const Profile = () => {
                         className="form-control-alternative"
                         placeholder="A few words about you ..."
                         rows="4"
-                        defaultValue="A beautiful Dashboard for Bootstrap 4. It is Free and
-                        Open Source."
+                        defaultValue="I'm a third-year Management and Information Technology student with a minor in chaotic energy. I drink way too much iced coffee, speak fluent spreadsheet, and once built a group project entirely in Notion because I thought it was funny (it wasn’t, but we passed). Passionate about UX, cybersecurity, and pretending I understand the world. Currently seeking internship opportunities from literally anywhere."
                         type="textarea"
                       />
                     </FormGroup>
