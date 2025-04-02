@@ -68,7 +68,7 @@ const Sidebar = (props) => {
   const closeCollapse = () => {
     setCollapseOpen(false);
   };
-  // creates the links that appear in the left menu / Sidebar
+  // creates the links that appear in the left menu / Sidebar here
   const createLinks = (routes) => {
     return routes.map((prop, key) => {
       return (
