@@ -46,7 +46,7 @@ const Login = () => {
                 className="btn-neutral btn-icon"
                 color="default"
                 href="#pablo"
-                onClick={(e) => e.preventDefault()}
+                onClick={(e) => (window.location.href = "https://weblogin.utoronto.ca/")}
               >
                 <span className="btn-inner--icon">
                   <img
@@ -91,7 +91,7 @@ const Login = () => {
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder="Email"
+                    placeholder="UTORid / JOINid"
                     type="email"
                     autoComplete="new-email"
                   />
@@ -146,7 +146,7 @@ const Login = () => {
             <a
               className="text-light"
               href="#pablo"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => (window.location.href = "http://localhost:3000/auth/register")}
             >
               <small>Create new account</small>
             </a>

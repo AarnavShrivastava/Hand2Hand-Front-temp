@@ -46,7 +46,7 @@ const Register = () => {
                 className="btn-neutral btn-icon mr-4"
                 color="default"
                 href="#pablo"
-                onClick={(e) => e.preventDefault()}
+                onClick={(e) => (window.location.href = "https://weblogin.utoronto.ca/")}
               >
                 <span className="btn-inner--icon">
                   <img
