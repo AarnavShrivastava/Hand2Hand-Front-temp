@@ -52,12 +52,12 @@ const Register = () => {
                   <img
                     alt="..."
                     src={
-                      require("../../assets/img/icons/common/github.svg")
+                      require("../../assets/img/icons/common/utorid.svg")
                         .default
                     }
                   />
                 </span>
-                <span className="btn-inner--text">Github</span>
+                <span className="btn-inner--text">UTORid</span>
               </Button>
               <Button
                 className="btn-neutral btn-icon"
@@ -69,12 +69,12 @@ const Register = () => {
                   <img
                     alt="..."
                     src={
-                      require("../../assets/img/icons/common/google.svg")
+                      require("../../assets/img/icons/common/quercus.svg")
                         .default
                     }
                   />
                 </span>
-                <span className="btn-inner--text">Google</span>
+                <span className="btn-inner--text">Quercus</span>
               </Button>
             </div>
           </CardHeader>
