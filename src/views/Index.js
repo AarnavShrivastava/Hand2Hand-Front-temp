@@ -63,8 +63,6 @@ const Index = (props) => {
   };
   return (
     <>
-
-    HELLO HELLO HELLO HELLO HELLO
       <Header />
       {/* Page content */}
       <Container className="mt--7" fluid>
@@ -130,7 +128,7 @@ const Index = (props) => {
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Performance
                     </h6>
-                    <h2 className="mb-0">Total orders</h2>
+                    <h2 className="mb-0">Items exchanged</h2>
                   </div>
                 </Row>
               </CardHeader>
@@ -152,7 +150,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Page visits</h3>
+                    <h3 className="mb-0">Listings</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -169,15 +167,15 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Page name</th>
-                    <th scope="col">Visitors</th>
-                    <th scope="col">Unique users</th>
-                    <th scope="col">Bounce rate</th>
+                    <th scope="col">Month</th>
+                    <th scope="col">Total Listings</th>
+                    <th scope="col">Users</th>
+                    <th scope="col">Percentage Sold</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">/argon/</th>
+                    <th scope="row">July</th>
                     <td>4,569</td>
                     <td>340</td>
                     <td>
@@ -185,7 +183,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/index.html</th>
+                    <th scope="row">August</th>
                     <td>3,985</td>
                     <td>319</td>
                     <td>
@@ -194,7 +192,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/charts.html</th>
+                    <th scope="row">September</th>
                     <td>3,513</td>
                     <td>294</td>
                     <td>
@@ -203,7 +201,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/tables.html</th>
+                    <th scope="row">Ocober</th>
                     <td>2,050</td>
                     <td>147</td>
                     <td>
@@ -211,7 +209,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">/argon/profile.html</th>
+                    <th scope="row">November</th>
                     <td>1,795</td>
                     <td>190</td>
                     <td>
@@ -228,7 +226,7 @@ const Index = (props) => {
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Social traffic</h3>
+                    <h3 className="mb-0">Listings by Type</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -245,14 +243,14 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Referral</th>
-                    <th scope="col">Visitors</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Postings</th>
                     <th scope="col" />
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Facebook</th>
+                    <th scope="row">Books</th>
                     <td>1,480</td>
                     <td>
                       <div className="d-flex align-items-center">
@@ -268,7 +266,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Facebook</th>
+                    <th scope="row">Stationery</th>
                     <td>5,480</td>
                     <td>
                       <div className="d-flex align-items-center">
@@ -284,7 +282,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Google</th>
+                    <th scope="row">Furniture</th>
                     <td>4,807</td>
                     <td>
                       <div className="d-flex align-items-center">
@@ -296,7 +294,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Instagram</th>
+                    <th scope="row">Clothes</th>
                     <td>3,678</td>
                     <td>
                       <div className="d-flex align-items-center">
@@ -312,7 +310,7 @@ const Index = (props) => {
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">twitter</th>
+                    <th scope="row">Other</th>
                     <td>2,645</td>
                     <td>
                       <div className="d-flex align-items-center">
