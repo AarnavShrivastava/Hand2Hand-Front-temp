@@ -191,6 +191,3 @@ export default function MarketplaceListings() {
     </div>
   );
 }
-
-
-export default Tables;
