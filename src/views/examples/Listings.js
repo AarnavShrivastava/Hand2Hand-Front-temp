@@ -24,7 +24,7 @@ const fakeAPI = [
     id: 1,
     name: 'Vintage Camera',
     amount: '$120',
-    image: 'https://via.placeholder.com/150?text=Camera',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRj9uHl9nVCSqSusjbjtze7-AJaUQUmrQ0muAUbTLdyvW-8VEfMthe28tOMfDNS2idDdZRTFWNdOHRO-a_tQueHIhBiLuaUYSf05fhWObvOMRGRmKA9FIqDxCuc',
     seller: 'Retro World',
     category: 'Electronics',
     rating: 4,
@@ -34,7 +34,7 @@ const fakeAPI = [
     id: 2,
     name: 'Leather Wallet',
     amount: '$45',
-    image: 'https://m.media-amazon.com/images/I/81Behnyvk+L._AC_SL1200_.jpg',
+    image: 'https://therealleathercompany.com/cdn/shop/files/the-bifold-leather-wallet.png?v=1723631103',
     seller: 'Crafted Co.',
     category: 'Accessories',
     rating: 5,
@@ -44,7 +44,7 @@ const fakeAPI = [
     id: 3,
     name: 'Bluetooth Speaker',
     amount: '$85',
-    image: 'https://via.placeholder.com/150?text=Speaker',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrAYS71-R8RIxzCapcMrvepbB5ZD5j5UiXxT-y6FFk2qkXv6TIA-1DDNITOHUwys75SqMP4PL8-cK7OWsnyrrSTe0kBrZJytMsI64gui6B8jk4Y-B3EH-gYdv3',
     seller: 'SoundHub',
     category: 'Audio',
     rating: 3,
@@ -54,7 +54,7 @@ const fakeAPI = [
     id: 4,
     name: 'Running Shoes',
     amount: '$60',
-    image: 'https://via.placeholder.com/150?text=Shoes',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbdztmVve1SS6tQ86LhcQ_ykBJZlT_gxsMl4IsKAUqLt7iIIKi6nbR_k1os7po0aHq-oB06UVO18-92Bs2MK13Eva_rTv4qjuruDpy0YlOJsclHD-ZbUFaIk0',
     seller: 'FastFeet',
     category: 'Footwear',
     rating: 4,
@@ -143,7 +143,7 @@ export default function MarketplaceListings() {
 
             <button
               onClick={() => setSelectedItem(item)}
-              className="w-full bg-blue-600 text-white font-semibold py-2 rounded-xl hover:bg-blue-700 transition"
+              className="w-full bg-blue-600 text-black font-semibold py-2 rounded-xl hover:bg-blue-700 transition"
             >
               View Details
             </button>
@@ -154,7 +154,7 @@ export default function MarketplaceListings() {
       {/* Modal */}
       {selectedItem && (
         <div className="fixed inset-0 bg-black bg-opacity-40 flex justify-center items-center z-50">
-          <div className="bg-white rounded-2xl p-6 max-w-md w-full relative shadow-xl">
+          <div className="bg-black rounded-2xl p-6 max-w-md w-full relative shadow-xl">
             <button
               onClick={() => setSelectedItem(null)}
               className="absolute top-2 right-4 text-gray-400 hover:text-gray-600 text-xl"
