@@ -24,7 +24,7 @@ const fakeAPI = [
     id: 1,
     name: 'Vintage Camera',
     amount: '$120',
-    image: 'https://via.placeholder.com/150?text=Camera',
+    image: 'src/assets/img/brand/vintage Camera.webp',
     seller: 'Retro World',
     category: 'Electronics',
     rating: 4,
