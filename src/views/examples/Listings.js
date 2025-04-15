@@ -17,7 +17,7 @@
 */
 // reactstrap components
 import React, { useState, useEffect } from 'react';
-import { Star } from 'lucide-react';
+//import { Star } from 'lucide-react';
 
 const fakeAPI = [
   {
@@ -129,7 +129,7 @@ export default function MarketplaceListings() {
             <p className="text-green-600 text-md font-medium mb-1">{item.amount}</p>
             <p className="text-sm text-gray-500 mb-3">Sold by: <span className="font-medium">{item.seller}</span></p>
 
-            {/* Rating */}
+            {/* Rating
             <div className="flex items-center mb-4">
               {[...Array(5)].map((_, i) => (
                 <Star
@@ -139,11 +139,11 @@ export default function MarketplaceListings() {
                   fill={i < item.rating ? '#facc15' : 'none'}
                 />
               ))}
-            </div>
+            </div> */}
 
             <button
               onClick={() => setSelectedItem(item)}
-              className="w-full bg-blue-600 text-white font-semibold py-2 rounded-xl hover:bg-blue-700 transition"
+              className="w-full bg-blue-600 text-black font-semibold py-2 rounded-xl hover:bg-blue-700 transition"
             >
               View Details
             </button>
@@ -154,7 +154,7 @@ export default function MarketplaceListings() {
       {/* Modal */}
       {selectedItem && (
         <div className="fixed inset-0 bg-black bg-opacity-40 flex justify-center items-center z-50">
-          <div className="bg-white rounded-2xl p-6 max-w-md w-full relative shadow-xl">
+          <div className="bg-black rounded-2xl p-6 max-w-md w-full relative shadow-xl">
             <button
               onClick={() => setSelectedItem(null)}
               className="absolute top-2 right-4 text-gray-400 hover:text-gray-600 text-xl"
@@ -171,14 +171,14 @@ export default function MarketplaceListings() {
             <p className="text-green-600 font-semibold text-lg mb-1">{selectedItem.amount}</p>
             <p className="text-sm text-gray-500 mb-2">Sold by: {selectedItem.seller}</p>
             <div className="flex items-center mb-4">
-              {[...Array(5)].map((_, i) => (
+              {/* {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
                   size={18}
                   className={i < selectedItem.rating ? 'text-yellow-400' : 'text-gray-300'}
                   fill={i < selectedItem.rating ? '#facc15' : 'none'}
                 />
-              ))}
+              ))} */}
             </div>
             <button
               className="w-full bg-green-600 text-white font-semibold py-2 rounded-xl hover:bg-green-700 transition"
