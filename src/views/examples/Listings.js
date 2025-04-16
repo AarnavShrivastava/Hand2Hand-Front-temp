@@ -17,6 +17,11 @@
 */
 // reactstrap components
 import React, { useState, useEffect } from 'react';
+import vintageCamera from '../../assets/img/brand/vintage Camera.png';
+import wallet from '../../assets/img/brand/wallet.png';
+import speaker from '../../assets/img/brand/speaker.png';
+import shoes from '../../assets/img/brand/Shoes.png';
+
 // import { Star } from 'lucide-react';
 
 const fakeAPI = [
@@ -24,7 +29,7 @@ const fakeAPI = [
     id: 1,
     name: 'Vintage Camera',
     amount: '$120',
-    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRj9uHl9nVCSqSusjbjtze7-AJaUQUmrQ0muAUbTLdyvW-8VEfMthe28tOMfDNS2idDdZRTFWNdOHRO-a_tQueHIhBiLuaUYSf05fhWObvOMRGRmKA9FIqDxCuc',
+    image: vintageCamera,
     seller: 'Retro World',
     category: 'Electronics',
     rating: 4,
@@ -34,7 +39,7 @@ const fakeAPI = [
     id: 2,
     name: 'Leather Wallet',
     amount: '$45',
-    image: 'https://therealleathercompany.com/cdn/shop/files/the-bifold-leather-wallet.png?v=1723631103',
+    image: wallet,
     seller: 'Crafted Co.',
     category: 'Accessories',
     rating: 5,
@@ -44,7 +49,7 @@ const fakeAPI = [
     id: 3,
     name: 'Bluetooth Speaker',
     amount: '$85',
-    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrAYS71-R8RIxzCapcMrvepbB5ZD5j5UiXxT-y6FFk2qkXv6TIA-1DDNITOHUwys75SqMP4PL8-cK7OWsnyrrSTe0kBrZJytMsI64gui6B8jk4Y-B3EH-gYdv3',
+    image: speaker,
     seller: 'SoundHub',
     category: 'Audio',
     rating: 3,
@@ -54,7 +59,7 @@ const fakeAPI = [
     id: 4,
     name: 'Running Shoes',
     amount: '$60',
-    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbdztmVve1SS6tQ86LhcQ_ykBJZlT_gxsMl4IsKAUqLt7iIIKi6nbR_k1os7po0aHq-oB06UVO18-92Bs2MK13Eva_rTv4qjuruDpy0YlOJsclHD-ZbUFaIk0',
+    image: shoes,
     seller: 'FastFeet',
     category: 'Footwear',
     rating: 4,
