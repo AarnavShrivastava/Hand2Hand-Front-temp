@@ -62,7 +62,7 @@ var routes = [
   },
   {
     path: "/listings",
-    name: "Listings",
+    name: "llllllll",
     icon: "ni ni-bullet-list-67 text-red",
     component: <Listings />,
     layout: "/admin",
