@@ -15,11 +15,6 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-<<<<<<< HEAD
-
-//yyy
-=======
->>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
 import React from "react";
 import { useLocation, Route, Routes, Navigate } from "react-router-dom";
 // reactstrap components
