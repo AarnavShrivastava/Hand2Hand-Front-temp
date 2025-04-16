@@ -61,7 +61,11 @@ var routes = [
     layout: "/admin",
   },
   {
+<<<<<<< HEAD
     path: "/listings",
+=======
+    path: "/Listings",
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
     name: "Listings",
     icon: "ni ni-bullet-list-67 text-red",
     component: <Listings />,

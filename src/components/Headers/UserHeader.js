@@ -15,7 +15,11 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+<<<<<<< HEAD
 //yyyiyiy
+=======
+
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
@@ -43,7 +47,11 @@ const UserHeader = () => {
                 This is your profile page. You can set and edit your contact information.
               </p>
               <Button
+<<<<<<< HEAD
                 color="info"//hh
+=======
+                color="info"
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >

@@ -17,14 +17,27 @@
 */
 // reactstrap components
 import React, { useState, useEffect } from 'react';
+<<<<<<< HEAD
 //import { Star } from 'lucide-react';
+=======
+import vintageCamera from '../../assets/img/brand/vintage Camera.png';
+import wallet from '../../assets/img/brand/wallet.png';
+import speaker from '../../assets/img/brand/speaker.png';
+import shoes from '../../assets/img/brand/Shoes.png';
+
+// import { Star } from 'lucide-react';
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
 
 const fakeAPI = [
   {
     id: 1,
     name: 'Vintage Camera',
     amount: '$120',
+<<<<<<< HEAD
     image: '../assets/img/brand/vintage Camera.png',
+=======
+    image: vintageCamera,
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
     seller: 'Retro World',
     category: 'Electronics',
     rating: 4,
@@ -34,7 +47,11 @@ const fakeAPI = [
     id: 2,
     name: 'Leather Wallet',
     amount: '$45',
+<<<<<<< HEAD
     image: '../assets/img/brand/wallet.png',
+=======
+    image: wallet,
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
     seller: 'Crafted Co.',
     category: 'Accessories',
     rating: 5,
@@ -44,7 +61,11 @@ const fakeAPI = [
     id: 3,
     name: 'Bluetooth Speaker',
     amount: '$85',
+<<<<<<< HEAD
     image: '../assets/img/brand/speaker.png',
+=======
+    image: speaker,
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
     seller: 'SoundHub',
     category: 'Audio',
     rating: 3,
@@ -54,7 +75,11 @@ const fakeAPI = [
     id: 4,
     name: 'Running Shoes',
     amount: '$60',
+<<<<<<< HEAD
     image: '../assets/img/brand/Shoes.png',
+=======
+    image: shoes,
+>>>>>>> d04a54f0501b01a5c34399cc125e0752547b938d
     seller: 'FastFeet',
     category: 'Footwear',
     rating: 4,
